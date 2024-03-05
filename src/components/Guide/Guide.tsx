@@ -15,6 +15,9 @@ const Guide: React.FC<Props> = (props) => {
         <Typography.Title level={3} className={styles.title}>
           欢迎使用 <strong>{name}</strong> ！
         </Typography.Title>
+        <Typography.Paragraph>
+          使用Vercel + UmiJS + Ant Design的脚手架示例。
+        </Typography.Paragraph>
       </Row>
     </Layout>
   );
